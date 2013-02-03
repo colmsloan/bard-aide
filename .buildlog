@@ -1,0 +1,22 @@
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/bard_aide.html","to":"web/out/bard_aide.html"}}]
+[{"method":"warning","params":{"file":"web/bard_aide.html","message":"data-value is deprecated. Given data-value=\"fieldName:expr\", replace it with field-name=\"{{expr}}\". Unlike data-value, \"expr\" will be watched and fieldName will automatically update. You may also use bind-field-name=\"dartAssignableValue\" to get two-way data binding.","line":18,"charStart":363,"charEnd":442}}]
+Total time spent on web/bard_aide.html                       -- 161 ms
+build.dart finished [1370 ms]
+
+---
+build.dart --machine --changed=web\out\bard_aide.dart --changed=web\out\bard_aide.html --changed=web\out\bard_a...
+
+build.dart finished [175 ms]
+
+---
+build.dart --machine --changed=README
+
+build.dart finished [198 ms]
+
+---
+build.dart --machine --changed=README.md
+
+build.dart finished [167 ms]
+
